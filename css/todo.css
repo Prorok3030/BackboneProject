@@ -1,0 +1,79 @@
+html,
+
+body{
+	font-family: 'montserrat', sans-serif;
+	background-image: url(../img/bg.jpg);
+	max-height: 700px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.content {
+
+	margin: 0 auto;
+	margin-top: 15px;
+    width: auto;
+    border-radius: 10px;
+    padding: 20px;
+	max-width: 500px;
+	
+}
+
+#todoapp {
+	background: rgba(111, 101, 179, 0.347);
+	padding: 20px;
+	margin-bottom: 40px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-ms-border-radius: 0 0 5px 5px;
+	-o-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+
+#new-todo {
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 1px solid;
+}
+
+#todoapp h1 {
+	font-weight: bold;
+	text-align: center;
+}
+
+#todo-list li {	
+	font-size: 16px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 5px ;
+	border-bottom: 1px solid #333333;
+}
+
+#todoapp ul {
+	list-style-type: none;
+  }
+  #todo-list input.edit {
+	display: none;
+  }
+  #todo-list .editing label {
+	display: none;
+  }    
+  #todo-list .editing input.edit {
+	display: inline; 
+  }
+  ol, ul {
+  padding-left: 0;
+  }
+  .btn {
+	background: url(../img/cross.jpg) 50% 50% no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	border:none;
+  --bs-btn-padding-x: 10px;
+  --bs-btn-padding-y: 0;
+  }

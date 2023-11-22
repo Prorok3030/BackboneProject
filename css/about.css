@@ -1,0 +1,38 @@
+body{
+	font-family: 'montserrat', sans-serif;
+	background-image: url(../img/bg.jpg);
+	max-height: 700px;
+    margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.content{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}   
+.img-team{    
+    border: 10px solid rgb(247, 109, 97);
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 600px;
+    height: 400px;
+    float: right;
+}
+.text{
+    background-color: rgba(245, 237, 252, 0.849);
+    padding: 5px;
+    border: 10px solid rgb(247, 109, 97);
+    border-radius: 10px;
+}
+.text p{
+    color:#232115;
+    width: 700px;
+    font-size: 25px;
+    align-items: left;
+    text-align: justify;
+    margin-bottom: 3px;
+}
